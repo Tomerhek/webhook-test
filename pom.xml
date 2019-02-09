@@ -4,12 +4,4 @@
   <artifactId>serverSide</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
-  <configuration>
-    <archive>
-      <manifest>
-        <addClasspath>true</addClasspath>
-        <mainClass>NewServerGUI</mainClass>
-      </manifest>
-    </archive>
-  </configuration>
 </project>
