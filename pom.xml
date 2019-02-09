@@ -1,4 +1,5 @@
 <project>
+  <modelVersion>4.0.0</modelVersion>
   <groupId>testMaven</groupId>
   <artifactId>NewServerGUI</artifactId>
   <packaging>jar</packaging>
