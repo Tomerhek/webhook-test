@@ -1,7 +1,10 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>testMaven</groupId>
-  <artifactId>NewServerGUI</artifactId>
+  <artifactId>serverSide</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
+  <configuration>
+    <mainClass>NewServerGUI</mainClass>
+  </configuration>
 </project>
