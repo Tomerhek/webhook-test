@@ -1,8 +1,5 @@
 <project>
-  <artifactId>instant-messaging-tool</artifactId>
+  <artifactId>NewServerGUI</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
-  <dependency>
-    
-  </dependency>
 </project>
