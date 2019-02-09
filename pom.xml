@@ -5,6 +5,11 @@
   <packaging>jar</packaging>
   <version>1.0</version>
   <configuration>
-    <mainClass>NewServerGUI</mainClass>
+    <archive>
+      <manifest>
+        <addClasspath>true</addClasspath>
+        <mainClass>NewServerGUI</mainClass>
+      </manifest>
+    </archive>
   </configuration>
 </project>
