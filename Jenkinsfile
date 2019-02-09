@@ -3,6 +3,7 @@ node{
     git 'https://github.com/Tomerhek/webhook-test'
   }
   stage('Compile-Package'){
-    sh 'mvn package'
+    def mvnHome = tool name: 'M3', type: 'maven'
+    sh "${mvnHome}/bin/mvn package"
   }
 }
